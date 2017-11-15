@@ -3,7 +3,11 @@
 While GitHub does not have native PlantUML rendering, it is possible
 to use https://www.gravizo.com/ to render your diagrams using embedded images.
 
-See how it is done ([here](https://raw.githubusercontent.com/htssouza/plantuml_with_gravizo/master/README.md))
+See how it is done (source [here](https://raw.githubusercontent.com/htssouza/plantuml_with_gravizo/master/README.md)).
+
+For more:
+- [PlantUML](http://plantuml.com)
+- [Gravizo](https://www.gravizo.com)
 
 ## Sequence Diagrams
 
