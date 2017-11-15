@@ -1,6 +1,6 @@
 @startuml
 
-scale max 1050 width
+scale max 600 width
 
 title Network Example
 
@@ -19,7 +19,7 @@ cloud "Corporate Data Center" as DC {
   component "Replica DB"
 }
 ' links
-[User Machine] -..up-> [Route 53 DNS]
+[User Machine] -up-> [Route 53 DNS]
 [User Machine] --> [Server A]
 [User Machine] --> [Server B]
 [Server A] --> [Master DB]
