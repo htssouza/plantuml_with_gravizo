@@ -5,6 +5,8 @@ to use https://www.gravizo.com/ to render your diagrams using embedded images.
 
 See how it is done ([here](https://raw.githubusercontent.com/htssouza/plantuml_with_gravizo/master/README.md))
 
+![Alt text](https://g.gravizo.com/source/svg?https://raw.githubusercontent.com/htssouza/plantuml_with_gravizo/master/sample1.plantuml)
+
 ![Alt text](http://g.gravizo.com/g?
   @startuml;
   title .;
