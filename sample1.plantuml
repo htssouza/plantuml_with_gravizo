@@ -1,0 +1,3 @@
+@startuml
+[A] -down-> [B]
+@enduml
