@@ -11,3 +11,10 @@ See how it is done ([here](https://raw.githubusercontent.com/htssouza/plantuml_w
   [A] -down-> [B];
   @enduml;
 )
+
+![Alt text](https://g.gravizo.com/svg?
+  @startuml;
+  title .;
+  [A] -down-> [B];
+  @enduml;
+)
