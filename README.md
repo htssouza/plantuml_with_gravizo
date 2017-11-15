@@ -5,21 +5,21 @@ to use https://www.gravizo.com/ to render your diagrams using embedded images.
 
 See how it is done ([here](https://raw.githubusercontent.com/htssouza/plantuml_with_gravizo/master/README.md))
 
-![Alt text](http://g.gravizo.com/svg?
+![Alt text](http://g.gravizo.com/g?
   @startuml;
   title .;
   [A] -down-> [B];
   @enduml;
 )
 
-![Alt text](http://g.gravizo.com/svg?
+![Alt text](http://g.gravizo.com/g?
   @startuml;
   title .;
   [A] -down-> [B];
   @enduml;
 )
 
-![Alt text](http://g.gravizo.com/svg?
+![Alt text](http://g.gravizo.com/g?
   digraph G {
     aize ="4,4";
     main [shape=box];
