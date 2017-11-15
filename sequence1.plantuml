@@ -1,0 +1,11 @@
+@startuml
+
+title Your title goes here
+
+actor "User"
+
+User -> Foo : userAction()
+Foo -> Foo : internalAction()
+Foo -> Bar : externalAction()
+
+@enduml

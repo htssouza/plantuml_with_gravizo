@@ -1,0 +1,22 @@
+@startuml
+scale max 1000 width
+actor "Admin"
+actor "Timer"
+
+group Synchronous Process
+  "Admin" -> "Web UI" : postProcessRequest()
+  "Web UI" -> "API": storeProcessRequest()
+  "API" -> "DB": insert()
+end
+
+group Asynchronous Process
+  "Timer" -> "API": batchProcess()
+  "API" -> "API": listPendingRequests()
+  "API" -> "DB": select()
+
+  loop Item Processing
+    "API" -> "API": process()
+  end
+end
+
+@enduml
